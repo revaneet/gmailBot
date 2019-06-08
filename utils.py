@@ -3,7 +3,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "gmailbotKey.json"
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
-PROJECT_ID = "gmailbot-atqqeu"
+PROJECT_ID = <YOUR PROJECT ID>
 
 import ezgmail
 
